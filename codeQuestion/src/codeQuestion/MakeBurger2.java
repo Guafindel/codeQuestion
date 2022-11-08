@@ -2,11 +2,11 @@ package codeQuestion;
 
 import java.util.ArrayList;
 
-public class MakeBurger {
+public class MakeBurger2 {
 	
 	public static void main(String[] args) {
 
-		MakeBurger mb = new MakeBurger();
+		MakeBurger2 mb = new MakeBurger2();
 		
 		int[] ingredient = { 2, 2, 1, 2, 3, 1, 2, 1, 3, 2, 1, 2, 3, 3, 2, 2, 1, 3, 2, 1, 2 };
 
