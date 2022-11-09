@@ -6,20 +6,20 @@ public class NumberCompare {
 		
 		NumberCompare nbc = new NumberCompare();
 
-		int answer = nbc.solution(1, 2);
+		int answer = nbc.solution(10, 5);
 		
 		System.out.println(answer);
 		
 	}
 
 	/**
-	 * 정수 num1과 num2가 매개변수로 주어집니다. 
-	 * 두 수가 같으면 1 다르면 -1을 retrun하도록 solution 함수를 완성해주세요.
+	 * 정수 num1, num2가 매개변수로 주어질 때, 
+	 * num1를 num2로 나눈 나머지를 return 하도록 solution 함수를 완성해주세요.
 	 * @param num1
 	 * @param num2
 	 * @return
 	 */
-    public int solution(int num1, int num2) {
+	public int solution(int num1, int num2) {
         int answer = 0;
         answer = num1 == num2 ? 1: -1;
         return answer;
