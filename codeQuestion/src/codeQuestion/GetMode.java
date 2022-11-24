@@ -37,17 +37,19 @@ public class GetMode {
 			if(cntArray[i] > maxCnt) {
 				maxCnt = cntArray[i];
 				answer = i;
+			} else if (cntArray[i] == maxCnt) {
+				answer = -1;
 			}
 		}
 		
-		for(int i = 0; i < cntArray.length; i++) {
-			if(cntArray[i] == maxCnt) {
-				maxModeCnt++;
-			}
-		}
-		if(maxModeCnt > 1) {
-			answer = -1;
-		}
+//		for(int i = 0; i < cntArray.length; i++) {
+//			if(cntArray[i] == maxCnt) {
+//				maxModeCnt++;
+//			}
+//		}
+//		if(maxModeCnt > 1) {
+//			answer = -1;
+//		}
 		
 		return answer;
 	}
