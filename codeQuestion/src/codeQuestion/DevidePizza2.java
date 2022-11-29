@@ -5,6 +5,8 @@ public class DevidePizza2 {
 	public static void main(String[] args) {
 
 		System.out.println(solution2(10));
+		
+		System.out.println(12/4);
 
 	}
 	
